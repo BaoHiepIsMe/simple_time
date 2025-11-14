@@ -3,11 +3,7 @@
 Ứng dụng đếm thời gian đơn giản được xây dựng bằng **ReactJS + CapacitorJS**.  
 Ứng dụng hỗ trợ đếm thời gian theo giây, tạm dừng, đặt lại và lưu lại lịch sử reset bằng **Capacitor Preferences**.  
 Dữ liệu vẫn được giữ lại khi bạn đóng ứng dụng hoặc mở lại trên Android.
-<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/ab3e0375-1c6b-46d5-987f-3db5bcb3c7b7" />
-<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/9e418cfc-d02e-4499-85aa-243706d84c57" />
-<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/92791aac-4fc6-4fce-8deb-69f7e80b5ed5" />
-
-
+<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/ab3e0375-1c6b-46d5-987f-3db5bcb3c7b7" /><img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/92791aac-4fc6-4fce-8deb-69f7e80b5ed5" /><img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/9e418cfc-d02e-4499-85aa-243706d84c57" />
 
 ---
 
@@ -49,36 +45,36 @@ Dữ liệu vẫn được giữ lại khi bạn đóng ứng dụng hoặc mở
 ## 📦 Cấu trúc thư mục
 
 
-simple-timer/
-├─ src/
-│ ├─ App.tsx # UI + Logic 2 màn hình
-│ ├─ App.css # Giao diện đẹp
-│ ├─ storage.ts # Lưu dữ liệu bằng Preferences
-│ ├─ index.tsx
-├─ public/
-├─ android/ # Native Android project
-├─ capacitor.config.ts
-├─ package.json
+simple-timer/  
+├─ src/  
+│ ├─ App.tsx # UI + Logic 2 màn hình  
+│ ├─ App.css # Giao diện đẹp  
+│ ├─ storage.ts # Lưu dữ liệu bằng Preferences  
+│ ├─ index.tsx  
+├─ public/  
+├─ android/ # Native Android project  
+├─ capacitor.config.ts  
+├─ package.json  
 
 
 ---
 
 ## 🔧 Cách cài đặt & chạy ứng dụng
 
-1️⃣ Cài dependencies
-npm install
-2️⃣ Cài Capacitor Plugins
-npm install @capacitor/core @capacitor/cli
-npm install @capacitor/preferences
-3️⃣ Build ứng dụng React
-npm run build
-4️⃣ Copy sang Capacitor
-npx cap copy
-5️⃣ Thêm Android platform
-npm install @capacitor/android
-npx cap add android
-6️⃣ Chạy ứng dụng trên Android
-npx cap run android
+1️⃣ Cài dependencies  
+npm install  
+2️⃣ Cài Capacitor Plugins  
+npm install @capacitor/core @capacitor/cli  
+npm install @capacitor/preferences  
+3️⃣ Build ứng dụng React  
+npm run build  
+4️⃣ Copy sang Capacitor  
+npx cap copy  
+5️⃣ Thêm Android platform  
+npm install @capacitor/android  
+npx cap add android  
+6️⃣ Chạy ứng dụng trên Android  
+npx cap run android  
 
 Tên: Nguyễn Đức Bảo Hiệp
 
