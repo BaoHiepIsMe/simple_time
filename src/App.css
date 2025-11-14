@@ -1,0 +1,54 @@
+.container {
+  max-width: 480px;
+  margin: auto;
+  padding: 20px;
+}
+
+.timer-box {
+  background: #fafafa;
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #bbb;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.history-btn {
+  width: 100%;
+  padding: 12px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.back-btn {
+  width: 100%;
+  padding: 12px;
+  background: #888;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.history-item {
+  background: #fff9c4;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
