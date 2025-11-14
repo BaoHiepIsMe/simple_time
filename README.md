@@ -1,46 +1,93 @@
-# Getting Started with Create React App
+# ⏱ Simple Timer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ứng dụng đếm thời gian đơn giản được xây dựng bằng **ReactJS + CapacitorJS**.  
+Ứng dụng hỗ trợ đếm thời gian theo giây, tạm dừng, đặt lại và lưu lại lịch sử reset bằng **Capacitor Preferences**.  
+Dữ liệu vẫn được giữ lại khi bạn đóng ứng dụng hoặc mở lại trên Android.
+<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/ab3e0375-1c6b-46d5-987f-3db5bcb3c7b7" />
+<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/9e418cfc-d02e-4499-85aa-243706d84c57" />
+<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/92791aac-4fc6-4fce-8deb-69f7e80b5ed5" />
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Tính năng chính
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### ✔ 1. Bộ đếm thời gian (Timer)
+- Hiển thị số giây.
+- Chạy bằng `setInterval()`.
+- Đồng hồ chạy mượt, chính xác từng giây.
 
-### `npm test`
+### ✔ 2. Điều khiển Timer
+- **▶ Bắt đầu** – bắt đầu đếm.
+- **⏸ Tạm dừng** – dừng không mất dữ liệu.
+- **🔁 Đặt lại** – đưa về 0 giây.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✔ 3. Lịch sử Reset (History)
+- Lưu lại thời điểm bạn bấm “Reset”.
+- Hiển thị danh sách lịch sử theo timestamp.
+- Lưu bằng `Capacitor Preferences`.
 
-### `npm run build`
+### ✔ 4. Lưu dữ liệu cục bộ
+- Timer sẽ không bị mất khi bạn tắt app.
+- Lịch sử reset cũng được lưu vĩnh viễn.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✔ 5. Ngoài ra
+- Có thể xóa từng lịch sử hoặc xóa hết khi bấm vào biểu tượng thùng rác hoặc xóa tất cả ở trang lịch sử
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Công nghệ sử dụng
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **ReactJS + TypeScript**
+- **Capacitor Core**
+- **@capacitor/preferences**
+- CSS thuần
+- Android Studio (AVD) / Android device
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📦 Cấu trúc thư mục
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+simple-timer/
+├─ src/
+│ ├─ App.tsx # UI + Logic 2 màn hình
+│ ├─ App.css # Giao diện đẹp
+│ ├─ storage.ts # Lưu dữ liệu bằng Preferences
+│ ├─ index.tsx
+├─ public/
+├─ android/ # Native Android project
+├─ capacitor.config.ts
+├─ package.json
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Cách cài đặt & chạy ứng dụng
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1️⃣ Cài dependencies
+npm install
+2️⃣ Cài Capacitor Plugins
+npm install @capacitor/core @capacitor/cli
+npm install @capacitor/preferences
+3️⃣ Build ứng dụng React
+npm run build
+4️⃣ Copy sang Capacitor
+npx cap copy
+5️⃣ Thêm Android platform
+npm install @capacitor/android
+npx cap add android
+6️⃣ Chạy ứng dụng trên Android
+npx cap run android
+
+Tên: Nguyễn Đức Bảo Hiệp
+
+Mã sinh viên: 22IT084
+
+Môn:Phát triển ứng dụng di dộng đa nền tảng(2)
+
+Ứng dụng: Simple Timer
+
+Công nghệ: React + Capacitor
+
+Thi Giữa Kì
