@@ -27,4 +27,12 @@ export const loadHistory = async (): Promise<string[]> => {
   return value ? JSON.parse(value) : [];
 };
 
-export {};
+export const clearHistory = async () => {
+  await Preferences.remove({ key: HISTORY_KEY });
+};
+
+export const deleteHistoryItem = async (index: number, list: string[]) => {
+  const updated = list.filter((_, i) => i !== index);
+  await saveHistory(updated);
+  return updated;
+};
