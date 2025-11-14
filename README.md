@@ -3,14 +3,13 @@
 Ứng dụng đếm thời gian đơn giản được xây dựng bằng **ReactJS + CapacitorJS**.  
 Ứng dụng hỗ trợ đếm thời gian theo giây, tạm dừng, đặt lại và lưu lại lịch sử reset bằng **Capacitor Preferences**.  
 Dữ liệu vẫn được giữ lại khi bạn đóng ứng dụng hoặc mở lại trên Android.
-<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/ab3e0375-1c6b-46d5-987f-3db5bcb3c7b7" />
-<br><br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/235207e0-d4e5-4296-84d8-4fb152db9e5d" />  
 
-<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/92791aac-4fc6-4fce-8deb-69f7e80b5ed5" />
-<br><br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e1eff8e0-c2b4-4fce-8b9c-fa62252c89c2" />  
 
-<img width="481" height="873" alt="image" src="https://github.com/user-attachments/assets/9e418cfc-d02e-4499-85aa-243706d84c57" />
-<br><br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f48d7768-6a56-44ad-bc79-494b28df20ac" />  
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/63a80824-13cb-46da-b4c0-b6ea931101fb" />
 
 ---
 
